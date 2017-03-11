@@ -1,0 +1,51 @@
+{
+  "name": "rxjsplayground",
+  "version": "0.0.0",
+  "description": "rxJSPlayGround",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "tsc": "tsc src/server.ts --lib es2015,dom --outdir ./ --module CommonJS",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchaser53/rxJSPlayGround.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rchaser53/rxJSPlayGround/issues"
+  },
+  "homepage": "https://github.com/rchaser53/rxJSPlayGround#readme",
+  "devDependencies": {
+    "@types/koa": "^2.0.38",
+    "@types/koa-static": "^2.0.22",
+    "@types/node": "^7.0.8",
+    "@types/socket.io": "^1.4.28",
+    "babel": "6.5.2",
+    "babel-core": "6.22.1",
+    "babel-eslint": "7.1.1",
+    "babel-loader": "6.2.10",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-class-properties": "6.22.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.22.0",
+    "babel-plugin-transform-runtime": "6.22.0",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.22.0",
+    "babel-preset-stage-0": "6.22.0",
+    "babel-runtime": "6.22.0",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "html-webpack-plugin": "^2.28.0",
+    "koa-static": "^3.0.0",
+    "rxjs": "^5.2.0",
+    "socket.io": "^1.7.3",
+    "ts-loader": "^2.0.1",
+    "tslint": "^4.4.2",
+    "tslint-loader": "^3.4.2",
+    "typescript": "^2.2.1",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.3.0",
+    "webpack-stream": "3.2.0"
+  }
+}
