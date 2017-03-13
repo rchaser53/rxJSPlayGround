@@ -20,10 +20,13 @@ const io = SocketIO(server);
 app.use(serve('.'));
 
 io.on('connection', (socket)=>{
-  console.log(socket)
   //socket.emit('request', /* */); // emit an event to the socket
   //io.emit('broadcast', /* */); // emit an event to all connected sockets
   //socket.on('reply', function(){ /* */ }); // listen to the event
+
+  socket.on('poyo', (msg) => {
+    console.log(msg);
+  });
 });
 
 server.listen(3000, (req, res) => {
